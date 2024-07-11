@@ -1,7 +1,0 @@
-{
-  "NotebookApp": {
-    "nbserver_extensions": {
-      "cscienv_nbgrader_exchange": true
-    }
-  }
-}

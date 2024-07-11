@@ -1,5 +1,0 @@
-{
-  "packageManager": "python",
-  "packageName": "cscienv_nbgrader_exchange",
-  "uninstallInstructions": "Use your Python package manager (pip, conda, etc.) to uninstall the package cscienv_nbgrader_exchange"
-}
