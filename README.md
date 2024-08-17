@@ -40,6 +40,12 @@ The extension setup is twofold:
    the base container's nbgrader configuration to override which classes are
    used as the implementation of the various nbgrader commands.
 
+The above changes and supporting code in the deploy script are already present.
+Full integration of nbgrader itself needs to be enabled by uncommenting the
+lines in the Dockerfile of the base container under the `nbgrader` heading and
+uncommenting the lines in the start-notebook-hook.sh script (also for the base
+container)
+
 The extension's
 code inherits from nbgrader's default implementations. For example, the
 `cscienv_nbgrader_exchange.collect.ExchangeCollect` class extends nbgrader's
